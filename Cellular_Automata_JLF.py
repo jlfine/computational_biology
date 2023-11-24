@@ -23,7 +23,9 @@ def game(board):  # applies the function to the current board at each iteration
                 updated_board[r,c] = 0  # otherwise, dead cells stay dead in the next round
     board = updated_board  # changes the whole board to the updated board
     return board
-
+    
+board = np.random.randint(2, size=(100, 100))  # initializes a board to have random integers between 0 and 1 everywhere
+board = np.zeros((100,100))
 
 # different initializations
 def spaceship_1():
