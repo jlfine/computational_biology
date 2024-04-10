@@ -47,6 +47,8 @@ def spaceship_2():
 
 spaceship_1()  # calls spaceship_1 initialization
 
+# spaceship_2()  # calls spaceship_2 initialization; can change this
+
 steps = 100
 
 fig, ax = plt.subplots()  # initializes the figure to display
