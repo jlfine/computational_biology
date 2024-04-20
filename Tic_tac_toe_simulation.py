@@ -4,8 +4,8 @@
 # Tic-tac-toe is an example of an M,n,k game (with M,n,k = 3) (see: https://en.wikipedia.org/wiki/M,n,k-game) with properties that may be explored computationally.
 # This code will compute the board states of all possible tic-tac-toe games, and returns the number of unqiue games and the winners of each game (first mover, second mover). 
 # It can be shown that there exist 255168 possible unique tic-tac-toe games, and that the first mover has the advantage. 
-# Specifically, if the first mover is O, we will obtain the win_O:win_X:draw ratio to be: {'O': 131184, 'X': 77904, 'Draw': 46080}
-# This code will reproduce the results of Table 2 of Z.M.K. Zuhri (2022); ref: https://informatika.stei.itb.ac.id/~rinaldi.munir/Matdis/2021-2022/Makalah2021/Makalah-Matdis-2021%20(148).pdf
+# Specifically, if the first mover is 'O', we will obtain the win_O : win_X : draw ratio to be 131184 : 77904 : 46080
+# This code will therefore reproduce the results of Table 2 of Z.M.K. Zuhri (2022); ref: https://informatika.stei.itb.ac.id/~rinaldi.munir/Matdis/2021-2022/Makalah2021/Makalah-Matdis-2021%20(148).pdf
 
 class TicTacToeGame:
     # initializes the board, sets the size and chooses the first player (set to O)
