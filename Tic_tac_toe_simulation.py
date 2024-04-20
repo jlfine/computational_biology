@@ -1,7 +1,9 @@
 # Jacob L. Fine
 # April 20th, 2024
 
-# Tic-tac-toe is an example of an M,n,k game (with M,n,k = 3) (see: https://en.wikipedia.org/wiki/M,n,k-game) with properties that may be explored computationally.
+# Tic-tac-toe is an example of an M,n,k game (with M,n,k = 3) (see: https://en.wikipedia.org/wiki/M,n,k-game) with properties that may be explored computationally. 
+# Connect 4 is another examlpe of an M,n,k game with (m=6,n=7,k=4)
+# In M,n,k games, each player is a differnet symbol must obtain k symbols of their type in a row, column, or diagonal, on a matrix that is m x n. 
 # This code will compute the board states of all possible tic-tac-toe games, and returns the number of unqiue games and the winners of each game (first mover, second mover). 
 # It can be shown that there exist 255168 possible unique tic-tac-toe games, and that the first mover has the advantage. 
 # Specifically, if the first mover is 'O', we will obtain the win_O : win_X : draw ratio to be 131184 : 77904 : 46080
