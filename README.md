@@ -1,2 +1,2 @@
-# Computational Biology Programs Repo 2023
-A collection of programs for all things computational biology.
+# Computational biology programs
+A sample of programs that perform useful tasks in bioinformatics, with an emphasis on biological sequence analysis.
