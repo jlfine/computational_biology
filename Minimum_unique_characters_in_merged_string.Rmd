@@ -18,7 +18,7 @@ We are specifically interested in finding a lower bound on the relative proporti
 To start, we consider the length of the merged k-mers $L$, which is
 
 $$L = 2l -k$$
-since each k-mer has length $n$, and the overlap region is of length $k$.
+since each k-mer has length $l$, and the overlap region is of length $k$.
 
 We will then consider the 'worst-case' scenario, where all special characters are found in the overlap region. This entails that $k=p$ gives rise to the worse-case scenario. Thus, the special characters in each k-mer are identical, which entails that each k-mer has no unique special characters. 
 
