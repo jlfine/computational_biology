@@ -4,7 +4,7 @@ A collection of some programs I've written to perform useful tasks and exercises
 - Binary searches for nucleic acid polymers
 - De bruijn graphs for analyzing nucleic acid k-mers
 - Prefix trees / Tries for analyzing nucleic acid k-mers
-- Integer sorting algorithms
+- Cellular automata
 - Longest substring algorithms
 - Markov chains
 - Hidden markov models (HMMs)
