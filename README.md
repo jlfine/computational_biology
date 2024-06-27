@@ -1,5 +1,5 @@
 ## Computational biology programs
-A collection of programs that perform useful tasks and exercises in bioinformatics, which have been relevant to my graduate research work. Topics covered include:
+A collection of programs that perform useful tasks and exercises in bioinformatics, many of which have been relevant to my graduate research work. Topics covered include:
 
 - Binary searches for nucleic acid polymers
 - De bruijn graphs for analyzing nucleic acid k-mers
