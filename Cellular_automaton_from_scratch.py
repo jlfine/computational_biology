@@ -30,20 +30,20 @@ board = np.zeros((100,100))
 # different initializations
 def spaceship_1():
     for i in range(30,60,3):
-        board[i,i] = 1  # updates one entry to 1
-        board[i,i+1] = 1  # updates one entry to 1
-        board[i,i+2] = 1  # updates one entry to 1
-        board[i-1,i+2] = 1  # updates one entry to 1
-        board[i-2,i+1] = 1  # updates one entry to 1
+        board[i,i] = 1  # updates an entry to 1
+        board[i,i+1] = 1  
+        board[i,i+2] = 1  
+        board[i-1,i+2] = 1 
+        board[i-2,i+1] = 1  
 
 
 def spaceship_2():
     for i in range(30,60,2):
-        board[i,i] = 1  # updates one entry to 1
-        board[i,i+1] = 1  # updates one entry to 1
-        board[i,i+2] = 1  # updates one entry to 1
-        board[i-1,i+2] = 1  # updates one entry to 1
-        board[i-2,i+1] = 1  # updates one entry to 1
+        board[i,i] = 1  # updates an entry to 1
+        board[i,i+1] = 1 
+        board[i,i+2] = 1 
+        board[i-1,i+2] = 1 
+        board[i-2,i+1] = 1 
 
 spaceship_1()  # calls spaceship_1 initialization
 
