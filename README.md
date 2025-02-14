@@ -5,6 +5,7 @@ A collection of programs that perform useful tasks and exercises in bioinformati
 - Binary searches for nucleic acid polymers
 - Derivation of Eigen's error threshold (for the origin of life)
 - De Bruijn graphs for analyzing nucleic acid k-mers
+- Hamming distance in populations of k-mers
 - Prefix trees / Tries for analyzing nucleic acid k-mers
 - Cellular automata
 - Longest substring algorithms
