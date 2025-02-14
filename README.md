@@ -10,4 +10,5 @@ A collection of programs that perform useful tasks and exercises in bioinformati
 - Longest substring algorithms
 - Markov chains
 - Hidden Markov models (HMMs)
+- Distribution of Hamming distance
 - Fasta & csv file processing
